@@ -1,0 +1,59 @@
+.home{
+    background-color: teal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    padding: 20px;
+    margin-top: 30px;
+    width: 350px;
+    max-width: 90%;
+    align-content: center;
+}
+.nomeSite {
+    display: flex;
+    margin: 10px 0;
+    padding: 20px;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.descricao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.imagem404 {
+    width: 100%;
+}
+.pag-Produtos, .pag-Servicos {
+    background-color: powderblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+.titulo-pag {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    color: darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}

@@ -1,0 +1,60 @@
+.formulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 100px;
+}
+.formulario h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:darkslategrey;
+}
+form {
+  max-width: 90%;
+  width: 400px;
+}
+  
+label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    height: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    
+}
+input:focus {
+    outline: none;
+    border-bottom: 3px solid darkgray;
+}
+button {
+  width: 100%;
+  font-size: 20px;
+  padding: 16px;
+  background-color: darkslategrey;
+  border: 3px solid darkslategrey;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:floralwhite;
+}
+
+button:hover {
+  background-color:dimgray;
+  color:floralwhite;
+}
+.labels{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:darkslategrey;
+}
